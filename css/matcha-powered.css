@@ -1,0 +1,67 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,300);
+/*=== Variables ===*/
+/* === Layout === */
+* {
+  position: relative; }
+
+body, html {
+  padding: 0;
+  margin: 0;
+  font: 16px Raleway, sans-serif, Arial, Helvetica;
+  height: 100vh;
+  width: 100vw; }
+  body a, html a {
+    text-decoration: none;
+    color: white;
+    transition: all 250ms ease; }
+  body a:hover, body a:focus, html a:hover, html a:focus {
+    color: #66b266;
+    text-decoration: none; }
+  body ul, html ul {
+    -webkit-padding-start: 0; }
+
+body {
+  background: url(../img/matcha-powered-background.jpg) center center no-repeat fixed;
+  background-size: cover; }
+  body .page-container {
+    height: 100%; }
+
+.main-content {
+  padding: 0 0 40px 0; }
+
+/* === Header === */
+header {
+  height: 44px;
+  background-color: #336633;
+  border-bottom: 1px solid #2b552b; }
+  header .navigation-menu {
+    display: block;
+    text-align: right; }
+    header .navigation-menu li {
+      display: inline-block;
+      padding: 10px; }
+
+/* === Brand Logo === */
+.brand-logo {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .brand-logo img {
+    width: 80%; }
+
+/* === Footer === */
+footer {
+  position: absolute !important;
+  bottom: 0;
+  padding: 1rem;
+  background-color: #336633;
+  border-top: 1px solid #2b552b; }
+  footer h4 {
+    text-align: center;
+    color: white; }
+  footer ul {
+    text-align: center; }
+    footer ul li {
+      display: inline-block;
+      padding: 5px 10px; }
